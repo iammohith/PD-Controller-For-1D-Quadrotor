@@ -109,3 +109,11 @@ The project consists of the following MATLAB functions:
 
 ### Quadrotor Simulation for z = 1m t = 5s
 ![Quadrotor Simulation](Simulation.gif)
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+- Inspired from course [Aerial Robotics by University of Pennsylvania](https://www.coursera.org/learn/robotics-flight)
+
+## References
