@@ -6,7 +6,7 @@ The goal of this project is to get familiar with working with a quadrotor simula
 
 ### Technical Details  
 
-The dynamic equation governing the motion of the quadrotor in the vertical (**z**) direction is given by:  
+The dynamic equation governing the motion of the quadrotor in the vertical ($$z$$) direction is given by:  
 
 $$
 \ddot{z} = \frac{u}{m} - g
@@ -26,7 +26,7 @@ u = m(\ddot{z}_{\text{des}} + K_p e + K_v \dot{e} + g)
 $$  
 
 Where:  
-- $$ \ddot{z}_{\text{des}} $$: Desired acceleration in the \(z\)-direction.  
+- $$ \ddot{z}_{\text{des}} $$: Desired acceleration in the $$z$$-direction.  
 - $$ K_p $$: Proportional gain.  
 - $$ K_v $$: Derivative gain.  
 - $$ e = z_{\text{des}} - z $$: Position error (difference between desired and current height).  
