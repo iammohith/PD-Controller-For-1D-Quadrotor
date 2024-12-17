@@ -89,7 +89,7 @@ The project consists of the following MATLAB functions:
    Simulates the closed-loop height control system of the quadrotor. It applies control inputs, integrates the system's equations of motion, and updates the state over time.
 
 - **`libs/`**:  
-   Contains helper functions and libraries for the simulation:  
+   Contains helper functions for the simulation:  
    - **`QuadPlot.m`**:  
      Visualizes the quadrotor's position and trajectory over time, including motor positions and historical movement.  
    - **`QuatToRot.m`**:  
