@@ -28,3 +28,9 @@ Here’s the updated **Features** section:
   Includes an interactive GUI for:  
   - Simulating the quadrotor's motion.  
   - Visualizing the controller's response over time.
+
+## Requirements
+- MATLAB (preferably R2018b or later)
+
+## Usage
+Clone this repository and run the `simulation.m` file
