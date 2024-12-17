@@ -1,6 +1,17 @@
 # PD-Controller-For-1D-Quadrotor
 This project implements a Proportional-Derivative (PD) control system for a one-dimensional (1D) quadrotor. The objective is to stabilize the quadrotor's position along a single axis while counteracting disturbances and ensuring smooth motion. The PD controller computes corrective actions based on the position error (difference between desired and current positions) and its rate of change, allowing for precise and responsive control. This project is ideal for understanding control theory concepts, experimenting with feedback mechanisms, and applying them in a simulated environment.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Results](#results)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+
 ## Introduction  
 The goal of this project is to get familiar with working with a quadrotor simulator and implementing a Proportional-Derivative (PD) controller. The PD controller is designed to manage the vertical motion of the quadrotor by adjusting thrust to achieve stability and respond to specific height requirements.  
 
@@ -112,6 +123,13 @@ The project consists of the following MATLAB functions:
 ### Quadrotor Simulation for z = 1m t = 5s
 ![Quadrotor Simulation](Simulation.gif)
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+Inspired by the course Aerial Robotics offered by the University of Pennsylvania on Coursera.
+
 ## References
 - MATLAB Documentation:
    - [ODE45](https://www.mathworks.com/help/matlab/ref/ode45.html)
@@ -119,10 +137,3 @@ The project consists of the following MATLAB functions:
    - [OpenGL](https://www.mathworks.com/help/matlab/ref/opengl.html)
 - Coursera Course [Aerial Robotics by University of Pennsylvania](https://www.coursera.org/learn/robotics-flight)
 - Control Theory Concepts: K. Ogata, Modern Control Engineering, Prentice Hall
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-Inspired by the course Aerial Robotics offered by the University of Pennsylvania on Coursera.
