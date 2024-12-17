@@ -66,9 +66,9 @@ Here’s the updated **Features** section:
 Clone this repository and run the `simulation.m` file
 ```matlab
 params - A structure containing the following fields:
-   params.gravity   - Gravitational constant (m/s^2)
-   params.mass      - Mass of the quadrotor (kg)
+   params.gravity    - Gravitational constant (m/s^2)
+   params.mass       - Mass of the quadrotor (kg)
    params.arm_length - Length of the quadrotor arm (m)
-   params.u_min     - Minimum control input (thrust)
-   params.u_max     - Maximum control input (thrust)
+   params.u_min      - Minimum control input (thrust)
+   params.u_max      - Maximum control input (thrust)
 ```
