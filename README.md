@@ -44,8 +44,7 @@ In this project, I have implemented a custom PD controller to control the height
    The quadrotor needs to maintain stability at a height of 0 meters.  
 
 2. **Step Input Test**:  
-   The quadrotor is given a step input to rise to a height of 1 meter and maintain this position.  
-Here’s the updated **Features** section:  
+   The quadrotor is given a step input to rise to a height of 1 meter and maintain this position. 
 
 ## Features  
 - **PD Controller Implementation**:  
