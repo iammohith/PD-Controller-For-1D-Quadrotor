@@ -6,17 +6,17 @@ The goal of this project is to get familiar with working with a quadrotor simula
 
 ### Technical Details  
 
-The dynamic equation governing the motion of the quadrotor in the vertical ($$z$$) direction is given by:  
+The dynamic equation governing the motion of the quadrotor in the vertical ($z$) direction is given by:  
 
 $$
 \ddot{z} = \frac{u}{m} - g
 $$  
 
 Where:  
-- $$\ddot{z}$$: Acceleration in the $$z$$-direction.  
-- $$u$$: Control input (thrust force).  
-- $$m$$: Mass of the quadrotor.  
-- $$g$$: Gravitational acceleration.  
+- $$\ddot{z}$$: Acceleration in the $z$-direction.  
+- $u$: Control input (thrust force).  
+- $m$: Mass of the quadrotor.  
+- $g$: Gravitational acceleration.  
 
 #### PD Controller  
 The control input $$ u $$ for the Proportional-Derivative (PD) controller is defined as:  
@@ -26,11 +26,11 @@ u = m(\ddot{z}_{\text{des}} + K_p e + K_v \dot{e} + g)
 $$  
 
 Where:  
-- $$ \ddot{z}_{\text{des}} $$: Desired acceleration in the $$z$$-direction.  
-- $$ K_p $$: Proportional gain.  
-- $$ K_v $$: Derivative gain.  
-- $$ e = z_{\text{des}} - z $$: Position error (difference between desired and current height).  
-- $$ \dot{e} = \dot{z}_{\text{des}} - \dot{z} $$: Velocity error. 
+- $\ddot{z}_{\text{des}}$: Desired acceleration in the $$z$$-direction.  
+- $K_p$: Proportional gain.  
+- $K_v$: Derivative gain.  
+- $e = z_{\text{des}} - z$: Position error (difference between desired and current height).  
+- $\dot{e} = \dot{z}_{\text{des}} - \dot{z}$: Velocity error. 
 
 In this project, I have implemented a custom PD controller to control the height of a 1D quadrotor and tuned its gains $K_p$ and $K_v$ for optimal performance. The controller is tested with two distinct cases:  
 
