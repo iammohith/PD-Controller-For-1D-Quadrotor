@@ -4,11 +4,7 @@ This project implements a Proportional-Derivative (PD) control system for a one-
 ## Introduction  
 The goal of this project is to get familiar with working with a quadrotor simulator and implementing a Proportional-Derivative (PD) controller. The PD controller is designed to manage the vertical motion of the quadrotor by adjusting thrust to achieve stability and respond to specific height requirements.  
 
-Here’s an updated **Introduction** or **Technical Details** section incorporating the dynamic equations and control input for the PD controller:  
-
----
-
-## Technical Details  
+### Technical Details  
 
 The dynamic equation governing the motion of the quadrotor in the vertical (**z**) direction is given by:  
 
@@ -17,12 +13,12 @@ $$
 $$  
 
 Where:  
-- $$ \ddot{z} $$: Acceleration in the $$z$$-direction.  
-- $$ u $$: Control input (thrust force).  
-- $$ m $$: Mass of the quadrotor.  
-- $$ g $$: Gravitational acceleration.  
+- $$\ddot{z}$$: Acceleration in the $$z$$-direction.  
+- $$u$$: Control input (thrust force).  
+- $$m$$: Mass of the quadrotor.  
+- $$g$$: Gravitational acceleration.  
 
-### PD Controller  
+#### PD Controller  
 The control input $$ u $$ for the Proportional-Derivative (PD) controller is defined as:  
 
 $$
@@ -30,13 +26,12 @@ u = m(\ddot{z}_{\text{des}} + K_p e + K_v \dot{e} + g)
 $$  
 
 Where:  
-- \( \ddot{z}_{\text{des}} \): Desired acceleration in the \(z\)-direction.  
-- \( K_p \): Proportional gain.  
-- \( K_v \): Derivative gain.  
-- \( e = z_{\text{des}} - z \): Position error (difference between desired and current height).  
-- \( \dot{e} = \dot{z}_{\text{des}} - \dot{z} \): Velocity error. 
+- $$ \ddot{z}_{\text{des}} $$: Desired acceleration in the \(z\)-direction.  
+- $$ K_p $$: Proportional gain.  
+- $$ K_v $$: Derivative gain.  
+- $$ e = z_{\text{des}} - z $$: Position error (difference between desired and current height).  
+- $$ \dot{e} = \dot{z}_{\text{des}} - \dot{z} $$: Velocity error. 
 
-This section can go under **Introduction** or as a separate "Technical Details" section, depending on where you want to place it. Let me know if you’d like further refinements!
 In this project, I have implemented a custom PD controller to control the height of a 1D quadrotor and tuned its gains $K_p$ and $K_v$ for optimal performance. The controller is tested with two distinct cases:  
 
 1. **Stabilization at Zero Height**:  
