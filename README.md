@@ -6,7 +6,9 @@ The goal of this project is to get familiar with working with a quadrotor simula
 
 ### Technical Details  
 
-Physical properties of quadrotor, mass of quadrotor is 0.18($kg$) and length of arm of the quadrotor is 0.086($m$).
+The physical properties of the quadrotor are:
+- Mass($m$) : 0.18($kg$)
+- Lenght of arm ($l$) : 0.086($m$)
 
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
 
@@ -110,10 +112,17 @@ The project consists of the following MATLAB functions:
 ### Quadrotor Simulation for z = 1m t = 5s
 ![Quadrotor Simulation](Simulation.gif)
 
+## References
+- MATLAB Documentation:
+   - [ODE45](https://www.mathworks.com/help/matlab/ref/ode45.html)
+   - [Graphics](https://www.mathworks.com/help/matlab/graphics.html)
+   - [OpenGL](https://www.mathworks.com/help/matlab/ref/opengl.html)
+- Coursera Course [Aerial Robotics by University of Pennsylvania](https://www.coursera.org/learn/robotics-flight)
+- Control Theory Concepts: K. Ogata, Modern Control Engineering, Prentice Hall
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-- Inspired from course [Aerial Robotics by University of Pennsylvania](https://www.coursera.org/learn/robotics-flight)
 
-## References
+Inspired by the course Aerial Robotics offered by the University of Pennsylvania on Coursera.
