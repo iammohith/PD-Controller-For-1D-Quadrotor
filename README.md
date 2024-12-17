@@ -107,7 +107,7 @@ The project consists of the following MATLAB functions:
 
 ## Results
 
-### Quadrotor Simulation for z = 1$m$ t = 5$s$
+### Quadrotor Simulation for z = 1m t = 5s
 ![Quadrotor Simulation](Simulation.gif)
 
 ## License
