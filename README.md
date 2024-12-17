@@ -13,13 +13,13 @@ $$
 $$  
 
 Where:  
-- $$\ddot{z}$$: Acceleration in the $z$-direction.  
+- $\ddot{z}$: Acceleration in the $z$-direction.  
 - $u$: Control input (thrust force).  
 - $m$: Mass of the quadrotor.  
 - $g$: Gravitational acceleration.  
 
 #### PD Controller  
-The control input $$ u $$ for the Proportional-Derivative (PD) controller is defined as:  
+The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
 
 $$
 u = m(\ddot{z}_{\text{des}} + K_p e + K_v \dot{e} + g)
