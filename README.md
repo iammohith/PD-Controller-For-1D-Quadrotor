@@ -15,3 +15,16 @@ In this project, I have implemented a custom PD controller to control the height
 
 2. **Step Input Test**:  
    The quadrotor is given a step input to rise to a height of 1 meter and maintain this position.  
+Here’s the updated **Features** section:  
+
+## Features  
+- **PD Controller Implementation**:  
+  Implements a custom Proportional-Derivative (PD) controller to manage the quadrotor's vertical position.  
+
+- **Simulation Environment**:  
+  Provides a realistic simulation of the quadrotor's dynamics under the control of the PD system.  
+
+- **Graphical User Interface (GUI)**:  
+  Includes an interactive GUI for:  
+  - Simulating the quadrotor's motion.  
+  - Visualizing the controller's response over time.
