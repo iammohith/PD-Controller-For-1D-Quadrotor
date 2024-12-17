@@ -20,7 +20,7 @@ The goal of this project is to get familiar with working with a quadrotor simula
 ### Technical Details  
 
 The physical properties of the quadrotor are:
-- Mass($m$) : 0.18($kg$)
+- Mass ($m$) : 0.18($kg$)
 - Lenght of arm ($l$) : 0.086($m$)
 
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
