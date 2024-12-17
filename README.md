@@ -6,6 +6,8 @@ The goal of this project is to get familiar with working with a quadrotor simula
 
 ### Technical Details  
 
+Physical properties of quadrotor, mass = 0.18 ($kg$) and length of arm of the quadrotor is 0.086 ($m$).
+
 The dynamic equation governing the motion of the quadrotor in the vertical ($z$) direction is given by:  
 
 $$
@@ -16,7 +18,9 @@ Where:
 - $\ddot{z}$: Acceleration in the $z$-direction.  
 - $u$: Control input (thrust force).  
 - $m$: Mass of the quadrotor.  
-- $g$: Gravitational acceleration.  
+- $g$: Gravitational acceleration.
+- $u_min$ is 0
+- $u_max$ is $1.2*m*g$  
 
 #### PD Controller  
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
