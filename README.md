@@ -8,6 +8,8 @@ The goal of this project is to get familiar with working with a quadrotor simula
 
 Physical properties of quadrotor, mass of quadrotor is 0.18($kg$) and length of arm of the quadrotor is 0.086($m$).
 
+![Quadrotor Schematic](Quadrotor_Schematic.png)
+
 The dynamic equation governing the motion of the quadrotor in the vertical ($z$) direction is given by:  
 
 $$
