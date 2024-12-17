@@ -20,7 +20,7 @@ Where:
 - $m$: Mass of the quadrotor.  
 - $g$: Gravitational acceleration.
 - $u_min$ is 0
-- $u_max$ is $1.2*m*g$  
+- $u_max$ is $1.2mg$  
 
 #### PD Controller  
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
