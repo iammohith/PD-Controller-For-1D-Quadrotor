@@ -5,7 +5,7 @@ This project implements a Proportional-Derivative (PD) control system for a one-
 - [Introduction](#introduction)
 - [Features](#features)
    - [Technical Details](#technical-details)
-      - [PD Controller](#pd-controller)
+   - [PD Controller](#pd-controller)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [File Structure](#file-structure)
@@ -39,7 +39,7 @@ Where:
 - $u_{min}$ is 0 $(N)$
 - $u_{max}$ is $1.2mg$ $(N)$  
 
-#### PD Controller  
+### PD Controller  
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
 
 $$
