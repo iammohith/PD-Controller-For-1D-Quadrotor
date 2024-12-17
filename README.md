@@ -72,3 +72,7 @@ params - A structure containing the following fields:
    params.u_min      - Minimum control input (thrust)
    params.u_max      - Maximum control input (thrust)
 ```
+
+## File Structure
+
+The project consists of the following MATLAB functions:
