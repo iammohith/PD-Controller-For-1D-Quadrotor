@@ -17,12 +17,12 @@ $$
 $$  
 
 Where:  
-- $\ddot{z}$: Acceleration in the $z$-direction.  
-- $u$: Control input (thrust force).  
-- $m$: Mass of the quadrotor.  
-- $g$: Gravitational acceleration.
-- $u_{min}$ is 0
-- $u_{max}$ is $1.2mg$  
+- $\ddot{z}$: Acceleration in the $z$-direction. $(m/s^2)$  
+- $u$: Control input (thrust force). $(N)$  
+- $m$: Mass of the quadrotor. $(kg)$
+- $g$: Gravitational acceleration. $(m/s^2)$
+- $u_{min}$ is 0 $(N)$
+- $u_{max}$ is $1.2mg$ $(N)$  
 
 #### PD Controller  
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
@@ -32,7 +32,7 @@ u = m(\ddot{z}_{\text{des}} + K_p e + K_v \dot{e} + g)
 $$  
 
 Where:  
-- $\ddot{z}_{\text{des}}$: Desired acceleration in the $$z$$-direction.  
+- $\ddot{z}_{\text{des}}$: Desired acceleration in the $$z$$-direction. $(m/s^2)$
 - $K_p$: Proportional gain.  
 - $K_v$: Derivative gain.  
 - $e = z_{\text{des}} - z$: Position error (difference between desired and current height).  
@@ -64,3 +64,11 @@ Here’s the updated **Features** section:
 
 ## Usage
 Clone this repository and run the `simulation.m` file
+```matlab
+params - A structure containing the following fields:
+   params.gravity   - Gravitational constant (m/s^2)
+   params.mass      - Mass of the quadrotor (kg)
+   params.arm_length - Length of the quadrotor arm (m)
+   params.u_min     - Minimum control input (thrust)
+   params.u_max     - Maximum control input (thrust)
+```
