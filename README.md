@@ -69,8 +69,8 @@ In this project, I have implemented a custom PD controller to control the height
   Provides a realistic simulation of the quadrotor's dynamics under the control of the PD system.  
 
 - **Graphical User Interface (GUI)**:  
-  Includes an interactive GUI for:  
-  - Simulating the quadrotor's motion.  
+  Includes an interactive GUI for:
+  - Simulating the quadrotor's motion.
   - Visualizing the controller's response over time.
 
 ## Requirements
