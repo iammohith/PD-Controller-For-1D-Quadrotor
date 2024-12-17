@@ -4,6 +4,8 @@ This project implements a Proportional-Derivative (PD) control system for a one-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+   - [Technical Details](#technical-details)
+      - [PD Controller](#pd-controller)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [File Structure](#file-structure)
