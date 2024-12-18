@@ -149,7 +149,7 @@ The current implementation effectively stabilizes the 1D quadrotor and performs 
 ### 4. **Trajectory Optimization for Smooth Motion**  
    The current system is tested primarily with step inputs or fixed setpoints. Extending the system to handle optimized trajectories could improve performance by:  
    - Designing time-optimal or smooth trajectories (e.g., splines or polynomials) for transitions between positions.  
-   - Ensuring control actions respect the thrust constraints $(u_{\text{min}}$ and $u_{\text{max}}\$ while minimizing oscillations and abrupt accelerations.  
+   - Ensuring control actions respect the thrust constraints $u_{\text{min}}$ and $u_{\text{max}}\$ while minimizing oscillations and abrupt accelerations.  
    - Balancing response time and precision for practical applications, such as delivery systems or height-following tasks.  
 
 ### 5. **Nonlinear Control Strategies**  
