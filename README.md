@@ -15,8 +15,9 @@ This project is about implementing a Proportional-Derivative (PD) control system
 - [Acknowledgments](#acknowledgments)
 - [References](#references)
 
-## Introduction  
-The goal of this project is to get familiar with working with a quadrotor dynamics and implementing a Proportional-Derivative (PD) controller. The PD controller is designed to manage the vertical motion of the quadrotor by adjusting thrust achieving stability and reaching specific height.  
+## Introduction
+
+The goal of this project is to gain familiarity with quadrotor dynamics and implement a Proportional-Derivative (PD) controller. The PD controller is designed to stabilize the vertical motion of the quadrotor by adjusting the thrust to reach and maintain a specific height.
 
 ### Technical Details  
 
