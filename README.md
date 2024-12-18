@@ -55,7 +55,7 @@ Where:
 - $e = z_{\text{des}} - z$: Position error (difference between desired and current height).  
 - $\dot{e} = \dot{z}_{\text{des}} - \dot{z}$: Velocity error. 
 
-In this project, I have implemented a custom PD controller to control the height of a 1D quadrotor and tuned its gains $K_p$ and $K_v$ for optimal performance. The controller is tested with two distinct cases:  
+In this project, I have implemented a custom PD controller to control the height of a 1D quadrotor and tuned its gains $K_p$ and $K_v$ for two distinct cases:  
 
 1. **Stabilization at Zero Height**:  
    The quadrotor needs to maintain stability at a height of 0 meters.  
