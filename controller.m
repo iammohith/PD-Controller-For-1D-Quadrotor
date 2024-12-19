@@ -21,7 +21,7 @@ u_min = params.u_min;    % Minimum thrust limit
 u_max = params.u_max;    % Maximum thrust limit
 
 % Controller gains (tuned for desired performance)
-kp = 200;                % Proportional gain
+kp = 120;                % Proportional gain
 kv = 20;                 % Derivative gain
 
 % Desired acceleration (z_ddot): Set to zero (default assumption)
