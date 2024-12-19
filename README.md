@@ -125,7 +125,7 @@ The project consists of the following MATLAB functions:
 ## Results
 
 ### Quadrotor Simulation for z = 1m t = 5s
-![Quadrotor Simulation](Simulation.gif)
+![Quadrotor Simulation](simulation.gif)
 
 ### Height Response of Quadrotor for z = 1m t = 5s 
 ![Height_Response_of_1D_Quadrotor](Height_Response_of_1D_Quadrotor.png)
