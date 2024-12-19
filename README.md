@@ -127,6 +127,9 @@ The project consists of the following MATLAB functions:
 ### Quadrotor Simulation for z = 1m t = 5s
 ![Quadrotor Simulation](Simulation.gif)
 
+### Height Response of Quadrotor for z = 1m t = 5s 
+![Height_Response_of_1D_Quadrotor](Height_Response_of_1D_Quadrotor.png)
+
 ## Future Work  
 
 The current implementation effectively stabilizes the 1D quadrotor and performs basic position control. However, there are several areas where the system can be enhanced while remaining within the 1D motion framework. These improvements aim to refine control precision, robustness, and adaptability under realistic conditions:  
