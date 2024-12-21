@@ -4,6 +4,7 @@ This project is about implementing a Proportional-Derivative (PD) control system
 ## Table of Contents
 - [Introduction](#introduction)
    - [Technical Details](#technical-details)
+   - [Dynamics](#dynamics)
    - [PD Controller](#pd-controller)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -24,6 +25,8 @@ The goal of this project is to gain familiarity with quadrotor dynamics and impl
 The physical properties of the quadrotor are:
 - Mass ($m$) : 0.18($kg$)
 - Lenght of arm ($l$) : 0.086($m$)
+  
+### Dynamics
 
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
 
@@ -41,7 +44,7 @@ Where:
 - $u_{min}$ is 0 $(N)$
 - $u_{max}$ is $1.2mg$ $(N)$  
 
-### PD Controller  
+#### PD Controller  
 
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
 
