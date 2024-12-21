@@ -42,6 +42,7 @@ Where:
 - $u_{max}$ is $1.2mg$ $(N)$  
 
 ### PD Controller  
+
 The control input $u$ for the Proportional-Derivative (PD) controller is defined as:  
 
 $$
@@ -76,6 +77,7 @@ In this project, I have implemented a custom PD controller to control the height
   - Visualizing the controller's response over time.
 
 ## Requirements
+
 - MATLAB (preferably R2018b or later)
 
 ## Usage
@@ -89,7 +91,8 @@ params - A structure containing the following fields:
    params.u_max      - Maximum control input (thrust)
 ```
 
-## **File Structure**  
+## File Structure
+
 The project consists of the following MATLAB functions:
 
 - **`simulation.m`**:  
@@ -182,6 +185,7 @@ The current implementation effectively stabilizes the 1D quadrotor and performs 
 By focusing on these areas, the 1D quadrotor control system can become more adaptable, precise, and robust for real-world applications without the need to expand into higher dimensions.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
@@ -189,6 +193,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Inspired by the course Aerial Robotics offered by the University of Pennsylvania on Coursera.
 
 ## References
+
 - MATLAB Documentation:
    - [ODE45](https://www.mathworks.com/help/matlab/ref/ode45.html)
    - [Graphics](https://www.mathworks.com/help/matlab/graphics.html)
